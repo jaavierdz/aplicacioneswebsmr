@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio Formularios</title>
+        <link rel="stylesheet" href="https://javierdz.dev/clase/styles.css">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Indique sus preferencias</legend>
+                <label for="fecha">Elija una fecha:</label>
+                <input type="date" id="fecha" name="fecha">
+                <label for="file">Elija un archivo:</label>
+                <input type="file" id="file" name="file">
+                <br>
+                <legend>Indique sus preferencias por favor</legend>
+                <select id="preferencias" name="asignaturas" multiple size="4">
+                    <option value="1">Matemáticas</option>
+                    <option value="2">Historias</option>
+                    <option value="3">Geografía</option>
+                    <option value="4">Lengua</option>
+                </select>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido">
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion">
+                <label for="color">Color favorito:</label>
+                <input type="color" id="color" name="color">
+                <input type="text" id="escribir" name="escribir" placeholder="Utilice este cuadro para esceribir">
+                <label for="datetime">Elija fecha:</label>
+                <input type="date" id="datetime" name="datetime">
+                <select id="hora" name="hora">
+                    <option value="1">ingles</option>
+                    <option value="2">9:00</option>
+                    <option value="3">10:00</option>
+                    <option value="4">11:00</option>
+                </select>
+                <label for="hora">Elija una hora:</label>
+                <input type="time" id="hora" name="hora">
+                <label for="file">Elija un archivo:</label>
+                <input type="file" id="file" name="file">
+                <input type="checkbox" id="check" name="checkh">
+                <label for="check">Hombre</label>
+                <input type="checkbox" id="check2" name="checkm">
+                <label for="check2">Mujer</label>
+            </fieldset>
+        </form>
+    </body>
+</html>
